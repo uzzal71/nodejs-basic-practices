@@ -141,6 +141,7 @@ Create a `.eslintrc.json` file in the project root and enter the below contents:
   },
   "env": {
     "commonjs": true,
+    "es2021": true,
     "node": true
   },
   "rules": {
@@ -152,6 +153,7 @@ Create a `.eslintrc.json` file in the project root and enter the below contents:
       {
         "trailingComma": "es5",
         "singleQuote": true,
+        "endOfLine": "auto",
         "printWidth": 100,
         "tabWidth": 4,
         "semi": true
